@@ -90,7 +90,7 @@ ans = [
         "브리지", "스위치", "라우터", "허브", "리피터", "게이트웨이", "프로토콜", "TCP/IP", "구문, 의미, 시간", "TCP", "UDP",\
         "가상회선", "데이터그램", "경로제어", "RIP", "OSPF", "트래픽제어", "흐름제어", "슬라이딩윈도우", "EGP", "BGP", "WAS", "웹서버",\
         "형상관리도구(버전관리도구)", "통합개발환경(IDE)", "Ant", "Maven", "Gradle", "협업도구", "Spring", "Node.js", "Django",\
-        "Codeigniter", "Ruby on Rails", "DTO/VO", "SQL", "DAO(Data Access Object)", "Service", "Controller", "IoT", "M2M", "그리드 컴퓨팅",\
+        "Codeigniter", "Ruby on Rails", "DTO/VO", "SQL", "(Data Access Object)", "Service", "Controller", "IoT", "M2M", "그리드 컴퓨팅",\
         "모바일 클라우드 컴퓨팅", "메시네트워크", "와이선", "NDN", "NGN", "SDN", "NFC", "UWB", "피코넷", "WBAN", "GIS", "USN",\
         "SON", "애드혹 네트워크", "개방형 링크드 데이터", "네트워크 슬라이싱", "뉴럴링크", "딥러닝", "전문가시스템", "증강현실(AR)", "블록체인",\
         "분산원장기술", "해시", "양자 암호키 분배", "프라이버시 강화 기술", "그레이웨어", "매시업", "시맨틱웹", "서비스형 소프트웨어", "소프트웨어 에스크로",\
@@ -102,10 +102,14 @@ ans = [
 ]
 
 while True:
-    i = random.randrange(30)
+    i = random.randrange(120, 130)
     print(pro[i])
     user = input("답: ")
     if user == ans[i]:
         print("정답! \n\n")
     else:
         print(f"오답, 답: {ans[i]}\n\n")
+
+# for i in range(30, 40):
+#         print(i, pro[i])
+#         print(i, ans[i])
