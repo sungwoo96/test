@@ -100,10 +100,11 @@ ans = [
         "chown user12 media.txt", "DIR /P", "IPv6", "ARP", "RARP", "IP", "구문:전송하고자 하는 데이터의 형식 부호화\n의미:정확한 정보 전송을 위한 협조사항과 오류 관리를 위한 제어정보를 규정\n시간:통신속도, 메시지의 순서제어 등을 규정",\
         "리치 인터넷 애플리케이션", "개념스키마", "데이터베이스", "논리적독립성", "개념적설계단계", "WAS", "범용성", "IDEA", "서버프레임워크", "RFID"
 ]
-
+print(pro[35])
+print(pro[118])
 while True:
-    i = random.randrange(120, 130)
-    print(pro[i])
+    i = random.randrange(140, 150)
+    # print(pro[i])
     user = input("답: ")
     if user == ans[i]:
         print("정답! \n\n")

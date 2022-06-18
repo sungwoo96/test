@@ -67,6 +67,7 @@ ans = [
         "REVOKE SELECT ON 수강 FROM 박문수 CASCADE;", "삭제:DELETE FROM 상품 WHERE 제품코드=‘P-20’;\n삽입:INSERT INTO 상품 VALUES(‘P-20’, ‘PLAYER’, 8800, 6600);",\
         "SELECT 상호,총액 FROM 거래내역 WHERE 총액 IN(SELECT MAX(총액) FROM 거래내역);", "UPDATE 성적 SET 점수=점수+10 WHERE 이름=‘LEE’;"
 ]
+print(len(pro))
 
 while True:
     i = random.randrange(0, 14)
